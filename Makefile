@@ -16,5 +16,5 @@ SERVE_PORT = 8000
 
 .PHONY: serve
 serve:
-	@echo "link: http://$(SERVE_HOST):$(SERVE_PORT)/presentation.html"
+	@echo "link: http://$(SERVE_HOST):$(SERVE_PORT)/"
 	@python3 -m http.server "$(SERVE_PORT)" --bind "$(SERVE_HOST)" --directory "$(ROOT)"

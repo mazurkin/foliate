@@ -1,13 +1,8 @@
-# VISIDATA environment
+# foliate.js reader
 
-# environment
-
-    # conda env + python + poetry
-    $ make env-create
-
-    # packages
-    $ make env-poetry-install
+https://github.com/johnfactotum/foliate-js
 
 # run
 
-    $ bin/vd
+    $ make
+    $ make serve
